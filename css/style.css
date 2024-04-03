@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.button-generals {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-generals button {
+    margin: 0 20px;
+}
+
+.btn1 {
+    color: white;
+    background: black;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn1:hover {
+    background:yellow ;
+    transform: scale(1.1);
+}
+
+.btn2 {
+    color: red;
+    background: blue;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn2:focus {
+    background: aqua;
+    transform: scale(1.1);
+}
+
+.btn3 {
+    color: peru;
+    background: green;
+    padding: 15px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.btn3:active {
+    background: blueviolet;
+    transform: scale(1.1);
+}
+
+.general-icon {
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.general-icon a {
+    transition: .4s;
+    margin: 0 20px;
+}
+
+.instagram-icon {
+    color: white;
+    background: black;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.instagram-icon:hover {
+    color: blue;
+    background: red;
+}
+
+.youtube-icon {
+    color: white;
+    background: black;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.youtube-icon:hover {
+    color: blue;
+    background: red;
+}
+
+.facebook-icon {
+    color: white;
+    background: black;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.facebook-icon:hover {
+    color: blue;
+    background: red;
+}
+
+.twitter-icon {
+    color: white;
+    background: black;
+    width: 35px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.twitter-icon:hover {
+    color: blue;
+    background: red;
+}
